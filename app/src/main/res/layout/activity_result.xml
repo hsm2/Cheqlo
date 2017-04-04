@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.harishmanikantan.verifyd.Result">
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+
+        android:id="@id/check_in"
+
+        android:background="@color/verifydGreen"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/checkInTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/verified"
+
+        android:text="You have not been verified for"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/eventName"
+
+        android:text="Invite Test"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/hostedBy"
+
+        android:text="hosted by" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/hostName"
+
+        android:text="Samuel Liu"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/at"
+
+        android:text="at"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/locationName"
+
+        android:text="San Francisco Cheesecake Factory"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/from"
+
+        android:text="from"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/timeDuration"
+
+        android:textColor="@color/black"
+        android:text="6:25 PM-7:25 PM"/>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="175dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/resultText" />-->
+
+</LinearLayout>

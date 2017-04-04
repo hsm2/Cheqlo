@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "197450575668",
+    "firebase_url": "https://verifyd-1f006.firebaseio.com",
+    "project_id": "verifyd-1f006",
+    "storage_bucket": "verifyd-1f006.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197450575668:android:169f00c9aa24d0a8",
+        "android_client_info": {
+          "package_name": "com.example.harishmanikantan.verifyd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197450575668-hnu1um72vsltqe3rnlmp7lhdash7ebra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3vUlc60s0xWrAep2Q5UjB2pgKpf1zsdI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
